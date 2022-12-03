@@ -1,0 +1,27 @@
+.dashboard{
+   
+   height: 100%;
+   padding: 2rem;
+  
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.row-one{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 50%;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+.row-two{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 50%;
+    gap: 1rem;
+}
+
+
